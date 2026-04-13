@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme { 
+  
+  --font-serif: "Lora", serif;
+  --font-lotr: "Cinzel", serif;
+
+  --color-lotr-black: #000000;
+  --color-lotr-green-dark: #2b2f22;
+  --color-lotr-green-mid: #3c422f;
+  --color-lotr-green-soft: #4a4d35;
+  --color-lotr-stone: #5e614d;
+  --color-lotr-gold: #D4AF37;
+  --color-lotr-gold-light: #F9E076;
+
+}
+
+body {
+  font-family: var(--font-serif);
+}
